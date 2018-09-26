@@ -111,7 +111,7 @@ h2 {
 }
 
 #agenda-container {
-  font-size: 0.98em;
+  font-size: 0.75em;
   display: flex;
 }
 
@@ -127,7 +127,7 @@ h2 {
 #venue table, th, td{
   border : 1px solid black;
   border-collapse: collapse;
-  padding: 5px 5px 5px 15px;
+  padding: 5px 5px 5px 10px;
 }
 
 #venue th{
@@ -137,7 +137,8 @@ h2 {
 }
 
 #venue td:nth-child(1) {
-  width : 70px;
+  text-align: right;
+  width : 60px;
 }
 
 .date {
@@ -160,7 +161,7 @@ h2 {
   }
 
   #agenda-container {
-    font-size: 0.96em;
+    font-size: 0.75em;
     display: block;
   }
 
