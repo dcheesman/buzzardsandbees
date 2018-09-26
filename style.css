@@ -110,6 +110,45 @@ h2 {
   text-align: center;
 }
 
+#agenda-container {
+  font-size: 0.98em;
+  display: flex;
+}
+
+#venue {
+  width : 250px;
+  margin : 20px auto 50px auto;
+}
+
+#venue table {
+  width: 100%;
+}
+
+#venue table, th, td{
+  border : 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px 5px 15px;
+}
+
+#venue th{
+  text-align: left;
+  background-color: black;
+  color : white;
+}
+
+#venue td:nth-child(1) {
+  width : 70px;
+}
+
+.date {
+  width : 90%;
+  margin: 75px auto 10px auto;
+}
+
+.date h2 {
+  text-align: center;
+}
+
 @media (max-width: 775px) {
   #menu {
     font-size: 1em;
@@ -119,4 +158,10 @@ h2 {
     display: grid;
     padding-top: 10px;
   }
+
+  #agenda-container {
+    font-size: 0.96em;
+    display: block;
+  }
+
 }
