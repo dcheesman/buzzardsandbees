@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -47,25 +51,15 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPLMLTW"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div id = header>
-    <div id="logotype-container">
-      <a href="./index.html"><img id="logotype" src="img/logoTypeHorizontal.jpeg"></a>
-    </div>
-    <ul id="menu">
-      <li>
-        <a href="https://www.24tix.com/es/9oj8ql/kz" target="_blank">Buy Tickets</a>
-      </li>
-      <li>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPrIa9-JDS8PLBQqTRLe1Tc2dGXUAZzg2tunf4bSsStl11Sw/viewform" target="_blank">Volunteer</a>
-      </li>
-      <li>
-        <a href="./faq.html">FAQ</a>
-      </li>
-      <li>
-        <a href="./aboutus.html">About Us</a>
-      </li>
-    </ul>
-  </div>
+
+  <!-- insert header -->
+  <script>
+    $(function(){
+      $("#header").load("header.html");
+    });
+  </script>
+  <div id="header"></div>
+
 
   <div class="date">
     <h2>October 26, 2018</h2>

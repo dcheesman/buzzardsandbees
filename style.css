@@ -40,6 +40,11 @@ ul li {
   text-align: center;
 }
 
+#buy-tickets {
+  font-weight: 800;
+  color: #111;
+}
+
 #logotype-container {
   margin : 50px auto 10px auto;
   text-align: center;
@@ -182,7 +187,44 @@ h2 {
   margin-bottom: 20px;
 }
 
-@media (max-width: 775px) {
+/* artist page */
+#artists {
+  margin : 50px auto 50px auto;
+  width: 75%;
+  text-align : center;
+}
+
+#artists p{
+  margin: 10px auto 30px auto;
+  padding: 10px;
+  max-width: 500px;
+  text-align: left;
+  font-size: 1.3em;
+  border-style: solid;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.artist {
+  display: inline-block;
+  padding : 30px;
+  text-align: center;
+}
+
+.artist img{
+  max-width: 250px;
+  border-radius: 100%;
+}
+
+.artist a img {
+  margin-top: 5px;
+  width : 27px;
+}
+
+
+
+
+@media (max-width: 925px) {
   #menu {
     font-size: 1em;
   }
