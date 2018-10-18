@@ -248,7 +248,20 @@ h2 {
   width : 27px;
 }
 
+#get-involved-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto 20px auto;
+  line-height: 1.4;
+}
 
+.involved {
+  margin-bottom: 50px;
+}
+
+#get-involved-container h2{
+  margin-bottom: 10px;
+}
 
 
 @media (max-width: 925px) {
