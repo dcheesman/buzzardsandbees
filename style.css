@@ -226,13 +226,9 @@ h2 {
 
 #artists p{
   margin: 10px auto 30px auto;
-  padding: 10px;
-  max-width: 500px;
+  max-width: 50%;
   text-align: left;
   font-size: 1.3em;
-  border-style: solid;
-  border-right: 0px;
-  border-left: 0px;
 }
 
 .artist {
