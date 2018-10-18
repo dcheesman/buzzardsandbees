@@ -41,6 +41,7 @@ ul li {
   margin: auto 10px auto 10px;
   text-align: center;
   padding-right: 10px;
+  vertical-align: middle;
 }
 
 hr {
@@ -106,6 +107,7 @@ h2 {
   /*position: absolute;*/
   /*right: 40px;*/
   /*top: 40px;*/
+  padding-bottom: 50px;
 }
 
 #social-icons {
@@ -266,6 +268,7 @@ h2 {
 
 @media (max-width: 925px) {
   #menu {
+    margin-top: 40px;
     font-size: 1em;
   }
 
