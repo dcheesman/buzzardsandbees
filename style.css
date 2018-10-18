@@ -129,12 +129,12 @@ h2 {
 
 .sponsor {
   display: inline-table;
-  margin : 20px;
+  margin : 10px 15px 10px 15px;
   vertical-align: middle;
 }
 
 .sponsor img{
-  width : 125px;
+  width : 100px;
 }
 
 #poster-container {
