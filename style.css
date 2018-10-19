@@ -238,6 +238,10 @@ h2 {
   padding : 30px;
   text-align: center;
   vertical-align: middle;
+
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .artist img{
@@ -246,7 +250,7 @@ h2 {
 }
 
 .artist h2 {
-  font-size: 1em;
+  font-size: 3em;
 }
 
 .artist a img {
