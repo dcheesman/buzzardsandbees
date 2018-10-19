@@ -241,8 +241,12 @@ h2 {
 }
 
 .artist img{
-  max-width: 150px;
+  max-width: 200px;
   border-radius: 100%;
+}
+
+.artist h2 {
+  font-size: 1em;
 }
 
 .artist a img {
