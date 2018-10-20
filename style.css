@@ -103,6 +103,23 @@ h2 {
   font-size: 1em;
 }
 
+#venuelist {
+  margin-top: 10px;
+}
+
+#venuelist ul{
+  margin-top: 0;
+}
+
+#venuelist li {
+  width: auto;
+  margin: auto 10px auto 10px;
+  text-align: left;
+  padding-right: 10px;
+  vertical-align: middle;
+  display: inherit;
+  padding-left: 40px;
+}
 
 #social {
   /*position: absolute;*/
@@ -153,17 +170,27 @@ h2 {
 
 #agenda-container {
   font-size: 0.75em;
-  display: flex;
+  display: block;
+  text-align: center;
+}
+
+#schedule-chart {
+  font-size: 0.75em;
+  display: block;
+  text-align: center;
 }
 
 #venue {
   width : 250px;
   margin : 20px auto 50px auto;
+  vertical-align: top;
+  display: inline-block;
 }
 
 #venue table {
   width: 100%;
 }
+
 
 #venue table, th, td{
   border : 1px solid black;
@@ -172,9 +199,13 @@ h2 {
 }
 
 #venue th{
-  text-align: left;
+  text-align: center;
   background-color: black;
   color : white;
+  font-size: 2em;
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #venue td:nth-child(1) {
