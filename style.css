@@ -207,11 +207,24 @@ h2 {
   font-family: shlop, sans-serif;
   font-weight: 400;
   font-style: normal;
+  height: 70px;
 }
 
 #venue td:nth-child(1) {
-  text-align: right;
+  /*text-align: right;*/
   width : 60px;
+}
+
+#man-barber td{
+  height : 51.95px;
+}
+
+#venue tr {
+  height: 45px;
+}
+
+.empty-cell {
+  background: #eee;
 }
 
 .date {
