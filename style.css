@@ -175,8 +175,9 @@ h2 {
 }
 
 #schedule-chart {
+  width: 100%;
   font-size: 0.75em;
-  display: block;
+  display: inline-flex;
   text-align: center;
 }
 
