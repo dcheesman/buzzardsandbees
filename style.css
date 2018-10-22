@@ -215,12 +215,20 @@ h2 {
   width : 60px;
 }
 
-#man-barber td{
+#venue tr {
+  height: 65px;
+}
+
+#man-barber td {
   height : 51.95px;
 }
 
-#venue tr {
-  height: 45px;
+.man-barber-2 {
+  height : 8px !important;
+}
+
+.man-barber-2 td {
+  background: #eee;
 }
 
 .empty-cell {
