@@ -320,6 +320,7 @@ h2 {
 
 .artist h2 {
   font-size: 3em;
+  vertical-align: top;
 }
 
 /*.artist a img {
