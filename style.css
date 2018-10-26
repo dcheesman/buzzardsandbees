@@ -181,6 +181,13 @@ h2 {
   text-align: center;
 }
 
+#downloadable-schedule {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  font-size: 2em;
+}
+
 #venue {
   width : 250px;
   margin : 20px auto 50px auto;
