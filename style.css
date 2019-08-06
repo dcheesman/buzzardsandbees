@@ -56,6 +56,7 @@ hr {
 
 #logotype-container {
   margin : 50px auto 10px auto;
+  max-width: 70%;
   text-align: center;
 }
 
