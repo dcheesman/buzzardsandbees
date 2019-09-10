@@ -103,6 +103,11 @@ h2 {
   width: 100%;
 }
 
+#big_date {
+  text-align: center;
+  font-size: 7em;
+}
+
 #description p {
   width: 60%;
   font-size: 1.4em;
@@ -393,6 +398,18 @@ h2 {
   ul li {
     display: grid;
     padding-top: 10px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  #big_date {
+    font-size: 3em;
+  }
+
+  #description {
+    font-size: 0.7em;
   }
 
   #social {
