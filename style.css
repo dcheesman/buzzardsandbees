@@ -87,7 +87,10 @@ h2 {
   font-size: 3em;
 }
 
-.container { position:relative; }
+.container {
+  position:relative;
+  filter: invert(100%);
+}
 
 .container video {
   position:relative;
