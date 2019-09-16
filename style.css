@@ -7,6 +7,7 @@ body {
   /*background-color: rgb(64, 57, 54);*/
   background-color: rgb(255, 255, 255);
   font-family: 'Roboto Slab', serif;
+  margin-bottom: 200px;
 }
 
 #header {
