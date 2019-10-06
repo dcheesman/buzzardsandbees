@@ -267,6 +267,20 @@ h2 {
   height : 8px !important;
 }
 
+.ten-minute {
+  height : 18px !important;
+}
+
+.fifteen-minute {
+  height : 28px !important;
+}
+
+.twenty-minute {
+  height : 38px !important;
+}
+
+
+
 .man-barber-2 td {
   background: #eee;
 }
