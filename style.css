@@ -207,6 +207,11 @@ h2 {
   text-align: center;
 }
 
+.schedule-banner img{
+  width: 100%;
+  position: inherit;
+}
+
 #schedule-chart {
   width: 100%;
   font-size: 0.75em;
