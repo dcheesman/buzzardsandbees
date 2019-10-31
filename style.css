@@ -407,6 +407,28 @@ h2 {
   width : 27px;
 }*/
 
+
+#prom_photos {
+  margin : 50px auto 50px auto;
+  width: 90%;
+  text-align : center;
+}
+
+.prom {
+  display: inline-block;
+  padding : 30px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.prom img{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 100%;
+}
+
+
 #get-involved-container {
   width: 90%;
   max-width: 600px;
