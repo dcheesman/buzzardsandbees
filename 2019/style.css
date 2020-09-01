@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-color: rgb(64, 57, 54);*/
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 200px;
+}
+
+#header {
+  margin : 50px auto 10px auto;
+  text-align: center;
+}
+
+#menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  font-size: 1em;
+}
+
+
+#description {
+  font-size: 1.2em;
+  width : 45%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin-top: -40px;
+}
+
+ul li {
+  display: table-cell;
+  width: auto;
+  margin: auto 10px auto 10px;
+  text-align: center;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+hr {
+  width : 50%;
+  margin : 40px auto 40px auto;
+}
+
+#buy-tickets {
+  font-weight: 800;
+  color: #111;
+}
+
+#logotype-container {
+  margin : 50px auto 10px auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+#logotype {
+  left: auto;
+  right: auto;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+#social {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+}
+
+.container {
+  position:relative;
+  filter: invert(100%);
+}
+
+.container video {
+  position:relative;
+  z-index:0;
+  background-color: black;
+}
+.overlay {
+  position:absolute;
+  top: 35%;
+  left: 0;
+  z-index:1;
+  color: white;
+  width: 100%;
+}
+
+#big_date {
+  text-align: center;
+  font-size: 7em;
+}
+
+.poster {
+  filter: invert(100%);
+  text-align: center;
+}
+
+.poster img {
+  width: 80%;
+}
+
+#description p {
+  width: 60%;
+  font-size: 1.4em;
+  margin: 80px auto 80px auto;
+  max-width: 650px;
+}
+
+#faq-container {
+  margin : 0px auto 50px auto;
+  max-width: 50%;
+}
+
+#question {
+  margin-top: 50px;
+}
+
+#question h2{
+  margin-bottom: 10px;
+}
+
+#question p{
+  font-size: 1em;
+}
+
+#venuelist {
+  margin-top: 10px;
+}
+
+#venuelist ul{
+  margin-top: 0;
+}
+
+#venuelist li {
+  width: auto;
+  margin: auto 10px auto 10px;
+  text-align: left;
+  padding-right: 10px;
+  vertical-align: middle;
+  display: inherit;
+  padding-left: 40px;
+}
+
+#social {
+  /*position: absolute;*/
+  /*right: 40px;*/
+  /*top: 40px;*/
+  padding-bottom: 50px;
+}
+
+#social-icons {
+  text-align: center;
+}
+
+
+.social-icon {
+  width : 30px;
+  height : 30px;
+  margin-right: 10px;
+}
+
+#sponsor-container {
+  text-align: center;
+  width: 75%;
+  margin: 10px auto 10px auto;
+}
+
+.sponsor {
+  display: inline-table;
+  margin : 10px 15px 10px 15px;
+  vertical-align: middle;
+}
+
+.sponsor img{
+  width : 100px;
+}
+
+#poster-container {
+  width : 100%;
+  margin-top: 30px;
+  padding: 0px;
+  text-align: center;
+}
+
+#poster {
+  max-width : 100%;
+  padding: 0px;
+  text-align: center;
+}
+
+#agenda-container {
+  font-size: 0.75em;
+  display: block;
+  text-align: center;
+}
+
+.schedule-banner img{
+  width: 100%;
+  position: inherit;
+}
+
+#schedule-chart {
+  width: 100%;
+  font-size: 0.75em;
+  display: inline-flex;
+  text-align: center;
+}
+
+#downloadable-schedule {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  font-size: 2em;
+}
+
+#venue {
+  width : 250px;
+  margin : 20px auto 50px auto;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#venue table {
+  width: 100%;
+}
+
+
+#venue table, th, td{
+  border : 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px 5px 10px;
+}
+
+#venue th{
+  text-align: center;
+  background-color: black;
+  color : white;
+  font-size: 2em;
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 70px;
+}
+
+#venue td:nth-child(1) {
+  /*text-align: right;*/
+  width : 60px;
+}
+
+#venue tr {
+  height: 65px;
+}
+
+#man-barber td {
+  height : 51.95px;
+}
+
+.man-barber-2 {
+  height : 8px !important;
+}
+
+.five-minute {
+  height : 8px !important;
+}
+
+.ten-minute {
+  height : 18px !important;
+}
+
+.fifteen-minute {
+  height : 28px !important;
+}
+
+.twenty-minute {
+  height : 38px !important;
+}
+
+
+
+.man-barber-2 td {
+  background: #eee;
+}
+
+.empty-cell {
+  background: #eee;
+}
+
+.date {
+  width : 90%;
+  margin: 75px auto 10px auto;
+}
+
+.date h2 {
+  text-align: center;
+}
+
+#bio_container {
+  display: table;
+  max-width : 75%;
+  margin : 30px auto 30px auto;
+  text-align: center;
+}
+
+#bio_container h1 {
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+
+}
+
+.bio {
+  margin: 50px 20px 50px 20px;
+  width: 350px;
+  display: inline-table;
+}
+
+.bio p {
+  text-align: left;
+  max-width: 250px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto 0 auto;
+}
+
+.bio a {
+  text-transform: lowercase;
+}
+
+.bio img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.bio h2{
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+}
+
+/* artist page */
+#artists {
+  margin : 50px auto 50px auto;
+  width: 90%;
+  text-align : center;
+}
+
+#artists p{
+  margin: 10px auto 30px auto;
+  max-width: 50%;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.artist {
+  display: inline-block;
+  padding : 30px;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: shlop, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.artist img{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 100%;
+}
+
+.artist h2 {
+  font-size: 3em;
+  vertical-align: top;
+}
+
+/*.artist a img {
+  margin-top: 5px;
+  width : 27px;
+}*/
+
+
+#prom_photos {
+  margin : 50px auto 50px auto;
+  width: 90%;
+  text-align : center;
+}
+
+.prom {
+  display: inline-block;
+  padding : 30px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.prom img{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 100%;
+}
+
+
+#get-involved-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto 20px auto;
+  line-height: 1.4;
+}
+
+.involved {
+  margin-bottom: 50px;
+}
+
+#get-involved-container h2{
+  margin-bottom: 10px;
+}
+
+#map {
+  width : 100%;
+  text-align: center;
+}
+
+#map img{
+  width : 85%;
+}
+
+
+@media (max-width: 925px) {
+  #menu {
+    margin-top: 40px;
+    font-size: 1em;
+  }
+
+  ul li {
+    display: grid;
+    padding-top: 10px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  #big_date {
+    font-size: 3em;
+  }
+
+  #description {
+    font-size: 0.7em;
+  }
+
+  #social {
+    position: inherit;
+  }
+
+  #agenda-container {
+    font-size: 0.75em;
+    display: block;
+  }
+
+}
